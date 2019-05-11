@@ -24,9 +24,9 @@ function App() {
           <CustomNavbar />
 
           <Route exact path="/" component={Home} />
+          <Route path="/TeamDetail" component={TeamDetail} />
           <div className="container mt-5">
             <Route path="/BookList" component={BookList} />
-            <Route path="/TeamDetail" component={TeamDetail} />
             <Route path="/View/:id" component={BookDetail} />
             <Route path="/User/:id" component={Profile} />
             <Route path="/OwnProfile/:id" component={OwnProfile} />

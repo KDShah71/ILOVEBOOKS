@@ -1,7 +1,18 @@
 import React, { Component } from "react";
-import {Link} from "react-router-dom";
+import $ from "jquery";
 
 export default class TeamDetail extends Component {
+    componentDidMount() {
+        $(document).ready(function() {
+            $('.writers-accordion').click(function(event) {
+                if(event.target.id.split('-')[0] === 'button') {
+                    $('#book-1').attr('src', 'assets/img/writers/' + event.target.id.split('-')[1] + '-book1.jpg');
+                    $('#book-2').attr('src', 'assets/img/writers/' + event.target.id.split('-')[1] + '-book2.jpg');
+                }
+
+            });
+        });
+    }
     render() {
         return (
             <section className="famous-writers pb-5">
@@ -83,7 +94,7 @@ export default class TeamDetail extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="my-3">
+                            <div className="my-3 more-option">
                                 <a href="#" className="btn btn-outline-info btn-block">More Writers</a>
                             </div>
                         </div>

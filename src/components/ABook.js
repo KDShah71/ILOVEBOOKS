@@ -7,9 +7,10 @@ export default class ABook extends Component {
       <div className="card">
         <img
           className="card-img-top"
-          src="https://dummyimage.com/640x4:3/"
+          src="assets/img/writers/2.jpg"
           alt=""
         />
+
         <div className="card-body">
           <h4 className="card-title">
             <strong>Book title</strong>
