@@ -5,7 +5,7 @@ export default class BookInfo extends Component {
   render() {
     return (
       <div>
-        <div className="card mb-3">
+        <div className="card book-details">
           <div className="row no-gutters">
             <div className="col-md-8">
               <div className="card-body">
