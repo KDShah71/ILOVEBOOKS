@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ABook from "./ABook";
-import CustomNavbar from "./CustomNavbar";
-import Footer from "./Footer";
+
 
 export default class BookList extends Component {
   render() {

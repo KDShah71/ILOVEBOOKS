@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 export default class ABook extends Component {
   render() {
     return (
-      <div class="card">
+      <div className="card">
         <img
-          class="card-img-top"
+          className="card-img-top"
           src="https://dummyimage.com/640x4:3/"
           alt=""
         />
-        <div class="card-body">
-          <h4 class="card-title">
+        <div className="card-body">
+          <h4 className="card-title">
             <strong>Book title</strong>
           </h4>
 
@@ -21,25 +21,25 @@ export default class ABook extends Component {
             <strong>Author-Name</strong>
           </Link>
 
-          <p class="card-text">
+          <p className="card-text">
             {" "}
             Description by the poster and bla bla in short to be seen
             here.Actually content is a little longer so More Details will take
             to the detail page.
           </p>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">
-            <div class="d-flex justify-content-around">
-              <div class="p-2">
+        <div className="card-footer">
+          <small className="text-muted">
+            <div className="d-flex justify-content-around">
+              <div className="p-2">
                 <span>
                   {" "}
-                  <i class="far fa-2x fa-comment " /> 54
+                  <i className="far fa-2x fa-comment " /> 54
                 </span>{" "}
                 Comments
               </div>
               <Link to="/View/:Id">
-                <div class="p-2">
+                <div className="p-2">
                   <div className="btn btn-secondary btn-info">Details</div>
                 </div>
               </Link>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Jumbotron, Container, Button } from "react-bootstrap";
+
 import { Link } from "react-router-dom";
-// import './Sitedetail.css';
+
 
 export default class Sitedetail extends Component {
   render() {

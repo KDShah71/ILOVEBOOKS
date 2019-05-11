@@ -13,6 +13,7 @@ export default class Comment extends Component {
                   <img
                     src="https://image.ibb.co/jw55Ex/def_face.jpg"
                     className="img img-rounded img-fluid"
+                    alt=""
                   />
                 </div>
                 <div className="col-md-10">
@@ -44,7 +45,10 @@ export default class Comment extends Component {
                         rows="3"
                       />
                     </div>
-                    <a className="float-right btn btn-outline-primary ml-2 ">
+                    <a
+                      href="#top"
+                      className="float-right btn btn-outline-primary ml-2 "
+                    >
                       {" "}
                       <i className="fa fa-reply " /> Reply
                     </a>
@@ -58,11 +62,12 @@ export default class Comment extends Component {
                       <img
                         src="https://image.ibb.co/jw55Ex/def_face.jpg"
                         className="img img-rounded img-fluid"
+                        alt=""
                       />
                     </div>
                     <div className="col-md-10">
                       <span>
-                        <a className="float-left" href="">
+                        <a href="#top" className="float-left">
                           <strong>Padante Kti Moh</strong>
                         </a>
                       </span>
@@ -91,7 +96,10 @@ export default class Comment extends Component {
                             rows="3"
                           />
                         </div>
-                        <a className="float-right btn btn-outline-primary ml-2 ">
+                        <a
+                          href="#top"
+                          className="float-right btn btn-outline-primary ml-2 "
+                        >
                           {" "}
                           <i className="fa fa-reply " /> Reply
                         </a>

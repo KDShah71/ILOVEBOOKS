@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class UserDetails extends Component {
   render() {
@@ -33,7 +33,10 @@ export default class UserDetails extends Component {
               </p>
               <hr />
             </div>
-            <Link to="/EditProfile" className="btn float-right btn-outline-primary mr-2 ml-3 mb-3">
+            <Link
+              to="/EditProfile"
+              className="btn float-right btn-outline-primary mr-2 ml-3 mb-3"
+            >
               <i className="fa fa-edit " /> Edit
             </Link>
           </div>

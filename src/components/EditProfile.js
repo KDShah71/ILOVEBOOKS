@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import CustomNavbar from "./CustomNavbar";
-import Footer from "./Footer";
+
 
 export default class EditProfile extends Component {
   render() {

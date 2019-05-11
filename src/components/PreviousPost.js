@@ -12,7 +12,7 @@ export default class PreviousPost extends Component {
               <h5 className="">Writer: Writer Name</h5>
               <span>
                 Posted-by:
-                <a href="#">
+                <a href="#top">
                   <strong>Author-Name</strong>
                 </a>
               </span>
@@ -34,10 +34,13 @@ export default class PreviousPost extends Component {
             <Link to="/view/:id" className="btn btn-outline-info ml-3 mb-3">
               <i className="fa fa-eye " /> View
             </Link>
-            <Link to="/Editpost/:postId" className="btn btn-outline-primary ml-3 mb-3">
+            <Link
+              to="/Editpost/:postId"
+              className="btn btn-outline-primary ml-3 mb-3"
+            >
               <i className="fa fa-edit " /> Edit
             </Link>
-            <a className="btn btn-outline-danger ml-3 mb-3">
+            <a href="#top" className="btn btn-outline-danger ml-3 mb-3">
               <i className="fa fa-trash " /> Delete
             </a>
           </div>

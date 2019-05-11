@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import CustomNavbar from "./CustomNavbar";
-import Footer from "./Footer";
+
 import ExchangePost from "./ExchangePost";
 
 export default class EditPost extends Component {

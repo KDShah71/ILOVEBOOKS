@@ -8,7 +8,7 @@ export default class CustomNavbar extends Component {
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand className="ml-auto mr-auto" href="/">
-            I <i class="fas fa-heart" /> B<i class="fas fa-book-open" />
+            I <i className="fas fa-heart" /> B<i className="fas fa-book-open" />
             KS
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
+
 import Comments from "./Comment";
 import BookInfo from "./BookInfo";
-import CustomNavbar from "./CustomNavbar";
-import Footer from "./Footer";
+
 
 export default class BookDetail extends Component {
   render() {

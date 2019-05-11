@@ -1,5 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./store";
+
 import Home from "./components/Home";
 import CustomNavbar from "./components/CustomNavbar";
 import Footer from "./components/Footer";
@@ -14,25 +17,27 @@ import EditPost from "./components/EditPost";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <CustomNavbar />
+    <Provider store={store}>
+      <Router>
+        <div>
+          <CustomNavbar />
 
-        <Route exact path="/" component={Home} />
-        <div className="container mt-5">
-          <Route path="/BookList" component={BookList} />
-          <Route path="/View/:id" component={BookDetail} />
-          <Route path="/User/:id" component={Profile} />
-          <Route path="/OwnProfile/:id" component={OwnProfile} />
-          <Route path="/Login" component={Login} />
-          <Route path="/Register" component={Register} />
-          <Route path="/EditProfile" component={EditProfile} />
-          <Route path="/Editpost/:postId" component={EditPost} />
+          <Route exact path="/" component={Home} />
+          <div className="container mt-5">
+            <Route path="/BookList" component={BookList} />
+            <Route path="/View/:id" component={BookDetail} />
+            <Route path="/User/:id" component={Profile} />
+            <Route path="/OwnProfile/:id" component={OwnProfile} />
+            <Route path="/Login" component={Login} />
+            <Route path="/Register" component={Register} />
+            <Route path="/EditProfile" component={EditProfile} />
+            <Route path="/Editpost/:postId" component={EditPost} />
+          </div>
+
+          <Footer />
         </div>
-
-        <Footer />
-      </div>
-    </Router>
+      </Router>
+    </Provider>
   );
 }
 
