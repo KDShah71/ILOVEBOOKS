@@ -40,3 +40,28 @@ code {
   text-decoration: none !important;
   color: black;
 }
+
+.common-title {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px #aaa;
+  transition: all .5s;
+}
+
+.common-title:first-letter {
+  font-family: 'Sofia', cursive;
+  font-family: 'Pacifico', cursive;;
+  font-size: 5rem;
+  margin-right: 10px;
+  font-style: normal;
+}
+
+.common-title:hover {
+  transform: translate(-5px, -3px);
+  text-shadow: 2px 5px 20px #aaa;
+}
+
+.famous-writers {
+  background: linear-gradient(rgba(250, 250, 250, .8), rgba(250, 250, 250, .9)), url(components/assets/writers-bg.jpeg) fixed center no-repeat /cover;
+}

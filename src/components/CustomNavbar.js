@@ -14,9 +14,15 @@ export default class CustomNavbar extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
+             <Nav className="p-2 m-2 ">
+              <Link to="/BookList" className="nounderline">
+                BookList
+              </Link>
+            </Nav>
+
               <Nav className="p-2 m-2 ">
-                <Link to="/BookList" className="nounderline">
-                  BookList
+                <Link to="/TeamDetail" className="nounderline">
+                  Team
                 </Link>
               </Nav>
 

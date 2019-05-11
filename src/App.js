@@ -14,6 +14,7 @@ import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import EditProfile from "./components/EditProfile";
 import EditPost from "./components/EditPost";
+import TeamDetail from "./components/TeamDetail";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <div className="container mt-5">
             <Route path="/BookList" component={BookList} />
+            <Route path="/TeamDetail" component={TeamDetail} />
             <Route path="/View/:id" component={BookDetail} />
             <Route path="/User/:id" component={Profile} />
             <Route path="/OwnProfile/:id" component={OwnProfile} />
