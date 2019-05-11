@@ -8,7 +8,7 @@ class OwnProfile extends Component {
   render() {
     return (
       <div>
-        <div className="container mt-5">
+        <div className="container user-details">
           <UserDetails />
           <ExchangePost />
           <PreviousPost />

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" className="fixed-top">
         <Container>
           <Navbar.Brand className="ml-auto mr-auto navbar-default" href="/">
             I <i className="fas fa-heart" /> B<i className="fas fa-book-open" />
@@ -22,7 +22,7 @@ export default class CustomNavbar extends Component {
 
               <Nav className="p-2 m-2 ">
                 <Link to="/TeamDetail" className="nounderline btn">
-                  Team
+                  Top Picks
                 </Link>
               </Nav>
 

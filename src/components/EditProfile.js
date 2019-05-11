@@ -6,7 +6,7 @@ export default class EditProfile extends Component {
     return (
       <React.Fragment>
         
-        <div className="container mt-5">
+        <div className="container user-edit">
           <div className="card bg-light">
             <article className="card-body mx-auto" style={{ maxWidth: 400 }}>
               <h2 className="card-title mt-3 text-center">Profile Edit</h2>

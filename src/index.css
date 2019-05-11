@@ -17,9 +17,11 @@ code {
 }
 
 .mtop-50 {
-  margin-top: 50px;
+  margin-top: 88px;
 }
-
+.book-banner, .login-page, .register-page, .user-details, .user-edit {
+  margin-top: 145px;
+}
 .hawa{
   background: green;
 }
@@ -82,4 +84,12 @@ code {
 }
 .ml-auto .p-2 .nounderline {
   color: #007bff;
+}
+#book-1, #book-2 {
+  height: 600px;
+  width: 600px;
+}
+.card-img-top {
+  width: 350px;
+  height: 300px;
 }

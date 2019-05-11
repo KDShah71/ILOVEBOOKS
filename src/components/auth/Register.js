@@ -55,7 +55,7 @@ class Register extends Component {
 
     return (
       <React.Fragment>
-        <div className="card mt-5 bg-light">
+        <div className="card register-page bg-light">
           <article className="card-body mx-auto" style={{ maxWidth: 400 }}>
             <h4 className="card-title mt-3 text-center">Create Account</h4>
             <p className="text-center">Get started with your free account</p>

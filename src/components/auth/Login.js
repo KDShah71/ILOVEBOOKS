@@ -33,7 +33,7 @@ export default class Login extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="mt-5 card bg-light">
+        <div className="card bg-light login-page">
           <article className="card-body mx-auto" style={{ maxWidth: 400 }}>
             <h4 className="card-title mt-3 text-center">Welcome Back</h4>
 

@@ -6,7 +6,7 @@ export default class BookList extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="mtop-50">
+        <div className="book-banner">
           <div className="container">
             <div className="card-columns">
               <ABook />
